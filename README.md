@@ -27,10 +27,10 @@ python3 -m http.server 8000
 
 ## Deploy
 
-**GitHub Pages (with the custom domain justgetwet.com):**
+**GitHub Pages (with the custom domain letsgetwet.com):**
 
 1. Settings → Pages → Source: *Deploy from a branch* → pick your branch and `/ (root)`.
-2. The `CNAME` file in this repo already tells GitHub to serve the site at `justgetwet.com`.
+2. The `CNAME` file in this repo already tells GitHub to serve the site at `letsgetwet.com`.
 3. At the domain registrar, add these DNS records:
    - `A` records for `@` pointing to `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
    - `CNAME` record for `www` pointing to `andronicstan.github.io`
