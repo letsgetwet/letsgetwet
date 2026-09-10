@@ -8,7 +8,7 @@
   // Option B: leave blank and the form falls back to opening the visitor's
   //   email client with the details pre-filled (mailto).
   var FORM_ENDPOINT = '';
-  var FALLBACK_EMAIL = 'hello@letsgetwetpw.com';
+  var FALLBACK_EMAIL = 'xanderd.case@gmail.com';
 
   // ---- Mobile nav ----------------------------------------------------------
   var toggle = document.getElementById('navToggle');
@@ -43,7 +43,7 @@
   if (year) year.textContent = new Date().getFullYear();
 
   // ---- Scroll reveal -------------------------------------------------------
-  var revealTargets = document.querySelectorAll('.service, .step, .result, .review, .section__head');
+  var revealTargets = document.querySelectorAll('.service, .step, .result, .section__head');
   revealTargets.forEach(function (el) { el.classList.add('reveal'); });
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function (entries) {

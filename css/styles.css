@@ -257,15 +257,12 @@ p { margin: 0 0 1em; }
   background: linear-gradient(transparent, rgba(0,0,0,.6));
 }
 
-/* ---------- Reviews ---------- */
-.reviews { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4rem; }
-.review {
-  margin: 0; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); border-radius: var(--radius); padding: 1.7rem;
-}
-.review__stars { color: var(--sun); letter-spacing: .1em; margin-bottom: .8rem; font-size: 1.1rem; }
-.review p { color: #e2e8f0; font-size: 1rem; }
-.review footer { color: #94a3b8; font-size: .9rem; font-weight: 600; }
-.reviews__cta { text-align: center; margin-top: 2.5rem; }
+
+/* ---------- CTA band ---------- */
+.cta-band__inner { display: grid; grid-template-columns: 1.2fr .8fr; gap: 3rem; align-items: center; }
+.cta-band .section__sub { margin-bottom: 0; }
+.cta-band__actions { display: flex; flex-direction: column; gap: .8rem; align-items: stretch; }
+@media (max-width: 1024px) { .cta-band__inner { grid-template-columns: 1fr; gap: 1.5rem; } }
 
 /* ---------- Service area ---------- */
 .area { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
@@ -343,7 +340,7 @@ p { margin: 0 0 1em; }
   .nav__phone { display: inline-flex; }
   .nav-toggle { position: relative; z-index: 56; }
   .hero__badges { gap: 1.2rem; }
-  .gallery, .reviews { grid-template-columns: 1fr; }
+  .gallery { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
   .area__list { grid-template-columns: repeat(2, 1fr); }
   .callbar { display: flex; }
