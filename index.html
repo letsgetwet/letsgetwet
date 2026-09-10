@@ -3,21 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stan's Home Services | Trust the Best. Trust Stan's.</title>
-  <meta name="description" content="Stan's Home Services is your trusted local choice for roof replacement & repair, pressure washing, soft washing, gutter cleaning, paver sealing, and holiday light installation. Licensed, insured, and 5-star rated. Free estimates.">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <title>Let's Get Wet Pressure Washing</title>
+  <meta name="description" content="Let's Get Wet Pressure Washing: house washing, driveway and concrete cleaning, deck and fence washing, roof soft washing, and gutter cleaning. Licensed, insured, and locally owned. Free estimates.">
+  <link rel="icon" href="assets/logo-sm.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "HomeAndConstructionBusiness",
-    "name": "Stan's Home Services",
+    "name": "Let's Get Wet Pressure Washing",
     "telephone": "(555) 555-0199",
-    "email": "hello@stanshomeservices.com",
-    "url": "https://stanshomeservices.com",
+    "email": "hello@letsgetwetpw.com",
     "areaServed": "Your City and surrounding areas",
     "priceRange": "$$",
     "openingHours": "Mo-Sa 07:00-19:00"
@@ -37,17 +36,15 @@
   <!-- ===== Header ===== -->
   <header class="header" id="header">
     <div class="container header__inner">
-      <a href="#top" class="logo" aria-label="Stan's Home Services home">
-        <svg class="logo__mark" viewBox="0 0 48 48" aria-hidden="true">
-          <path d="M24 6 4 24h6v16h12V28h4v12h12V24h6z" fill="currentColor"/>
-        </svg>
-        <span class="logo__text">Stan's <span>Home Services</span></span>
+      <a href="#top" class="logo" aria-label="Let's Get Wet Pressure Washing home">
+        <img src="assets/logo-sm.png" alt="" class="logo__img" width="64" height="63">
+        <span class="logo__text">Let's Get Wet <span>Pressure Washing</span></span>
       </a>
 
       <nav class="nav" id="nav" aria-label="Main navigation">
         <a href="#services">Services</a>
+        <a href="#results">Before &amp; After</a>
         <a href="#why">Why Us</a>
-        <a href="#gallery">Our Work</a>
         <a href="#reviews">Reviews</a>
         <a href="#area">Service Area</a>
         <a href="#contact">Contact</a>
@@ -68,48 +65,32 @@
       <div class="hero__bg" aria-hidden="true"></div>
       <div class="container hero__inner">
         <div class="hero__content">
-          <p class="eyebrow">Roofing • Exterior Cleaning • Holiday Lighting</p>
-          <h1>Trust the Best.<br><span class="accent">Trust Stan's.</span></h1>
-          <p class="hero__lead">Your local, family-owned team for roof replacement &amp; repair, pressure washing, gutter cleaning, and more. We show up on time, do the job right, and leave your home looking brand new.</p>
+          <p class="eyebrow">House • Driveway • Deck • Roof • Gutters</p>
+          <h1>Your Home Deserves<br>a <span class="accent">Fresh Start.</span></h1>
+          <p class="hero__lead">Algae, mildew, and years of grime don't stand a chance. We bring pro-grade equipment and the right technique for every surface, so your home looks new again without any damage.</p>
           <div class="hero__cta">
             <a href="#contact" class="btn btn--primary btn--lg">Get a Free Estimate</a>
             <a href="tel:+15555550199" class="btn btn--outline btn--lg">Call (555) 555-0199</a>
           </div>
           <ul class="hero__badges">
-            <li><strong>500+</strong><span>Happy Customers</span></li>
-            <li><strong>5.0★</strong><span>Google Rating</span></li>
+            <li><strong>Same-Week</strong><span>Scheduling</span></li>
+            <li><strong>5.0★</strong><span>Customer Rating</span></li>
             <li><strong>100%</strong><span>Satisfaction Guarantee</span></li>
           </ul>
         </div>
-        <div class="hero__card">
-          <h2>Request a Free Quote</h2>
-          <p>We'll get back to you within one business day.</p>
-          <form class="quote-form quote-form--mini" data-quote-form>
-            <label>
-              <span>Name</span>
-              <input type="text" name="name" required autocomplete="name">
-            </label>
-            <label>
-              <span>Phone</span>
-              <input type="tel" name="phone" required autocomplete="tel">
-            </label>
-            <label>
-              <span>Service</span>
-              <select name="service" required>
-                <option value="" disabled selected>Select a service</option>
-                <option>Roof Replacement / Repair</option>
-                <option>Pressure Washing</option>
-                <option>Soft Washing / House Wash</option>
-                <option>Gutter Cleaning</option>
-                <option>Roof &amp; Solar Panel Cleaning</option>
-                <option>Paver Sealing</option>
-                <option>Holiday Light Installation</option>
-                <option>Handyman / Other</option>
-              </select>
-            </label>
-            <button type="submit" class="btn btn--primary btn--block">Send My Request</button>
-            <p class="form-note">No spam. No obligation.</p>
-          </form>
+
+        <div class="hero__compare">
+          <div class="compare" id="heroCompare">
+            <img src="assets/porch-before.jpg" alt="Front porch covered in green algae before cleaning" class="compare__before" width="900" height="1200">
+            <div class="compare__after-wrap">
+              <img src="assets/porch-after.jpg" alt="The same front porch, clean concrete after pressure washing" class="compare__after" width="900" height="1200">
+            </div>
+            <div class="compare__handle" aria-hidden="true"><span>◀ ▶</span></div>
+            <span class="compare__label compare__label--before">Before</span>
+            <span class="compare__label compare__label--after">After</span>
+            <input type="range" min="0" max="100" value="50" class="compare__range" id="heroCompareRange" aria-label="Drag to compare before and after">
+          </div>
+          <p class="hero__compare-note">Drag to compare. Front porch and steps, one visit.</p>
         </div>
       </div>
     </section>
@@ -118,8 +99,8 @@
     <section class="trust">
       <div class="container trust__inner">
         <div class="trust__item">✅ Licensed &amp; Insured</div>
-        <div class="trust__item">🏠 Family Owned &amp; Operated</div>
-        <div class="trust__item">🛡️ Workmanship Guarantee</div>
+        <div class="trust__item">🏠 Locally Owned &amp; Operated</div>
+        <div class="trust__item">🧪 Safe on Siding, Wood &amp; Plants</div>
         <div class="trust__item">💬 Free, No-Pressure Estimates</div>
       </div>
     </section>
@@ -128,75 +109,92 @@
     <section class="section" id="services">
       <div class="container">
         <div class="section__head">
-          <p class="eyebrow">What We Do</p>
+          <p class="eyebrow">What We Clean</p>
           <h2>Our Services</h2>
-          <p class="section__sub">One trusted team for everything outside your home, from the roof down to the driveway.</p>
+          <p class="section__sub">The right pressure and the right cleaning solution for every surface. High pressure where it's safe, soft washing where it isn't.</p>
         </div>
 
         <div class="services-grid">
           <article class="service">
             <div class="service__icon">🏠</div>
-            <h3>Roof Replacement &amp; Repair</h3>
-            <p>Full replacements, storm damage repair, and leak fixes using quality materials backed by a workmanship warranty.</p>
-            <a href="#contact" class="service__link">Get a roof quote →</a>
-          </article>
-          <article class="service">
-            <div class="service__icon">💦</div>
-            <h3>Pressure Washing</h3>
-            <p>Driveways, sidewalks, patios, and decks brought back to life. Say goodbye to grime, oil stains, and mildew.</p>
-            <a href="#contact" class="service__link">Book a wash →</a>
-          </article>
-          <article class="service">
-            <div class="service__icon">🧼</div>
-            <h3>Soft Washing / House Wash</h3>
-            <p>Low-pressure cleaning that safely removes algae, mold, and stains from siding, stucco, and other delicate surfaces.</p>
+            <h3>House Washing</h3>
+            <p>Low-pressure soft washing that lifts algae, mold, and dirt off vinyl, brick, stucco, and Hardie board without harming the finish.</p>
             <a href="#contact" class="service__link">Refresh my home →</a>
           </article>
           <article class="service">
-            <div class="service__icon">🌧️</div>
-            <h3>Gutter Cleaning</h3>
-            <p>Clean-outs and flushes that prevent overflow, foundation damage, and costly water intrusion.</p>
-            <a href="#contact" class="service__link">Schedule a clean-out →</a>
+            <div class="service__icon">🚗</div>
+            <h3>Driveway &amp; Concrete</h3>
+            <p>Driveways, sidewalks, porches, and steps surface-cleaned to remove green algae, black mildew, tire marks, and oil stains.</p>
+            <a href="#contact" class="service__link">Clean my driveway →</a>
           </article>
           <article class="service">
-            <div class="service__icon">☀️</div>
-            <h3>Roof &amp; Solar Panel Cleaning</h3>
-            <p>Remove black streaks and buildup to restore curb appeal and keep your solar panels producing at full efficiency.</p>
-            <a href="#contact" class="service__link">Get a quote →</a>
+            <div class="service__icon">🪵</div>
+            <h3>Deck &amp; Fence Cleaning</h3>
+            <p>Gentle wood-safe washing that strips grey buildup and mildew from decks and fences, ready for stain or just enjoying.</p>
+            <a href="#contact" class="service__link">Restore my deck →</a>
+          </article>
+          <article class="service">
+            <div class="service__icon">🏡</div>
+            <h3>Roof Soft Washing</h3>
+            <p>Those black streaks are algae eating your shingles. We remove them with a no-pressure treatment that protects your roof.</p>
+            <a href="#contact" class="service__link">Fix my roof streaks →</a>
+          </article>
+          <article class="service">
+            <div class="service__icon">🌧️</div>
+            <h3>Gutter Cleaning &amp; Brightening</h3>
+            <p>Clean-outs to keep water flowing, plus exterior brightening to remove the black "tiger stripes" from gutter faces.</p>
+            <a href="#contact" class="service__link">Clear my gutters →</a>
           </article>
           <article class="service">
             <div class="service__icon">🧱</div>
-            <h3>Paver Sealing</h3>
-            <p>Enhance color, block weeds, and protect your pavers from stains and weather for years to come.</p>
-            <a href="#contact" class="service__link">Protect my pavers →</a>
-          </article>
-          <article class="service">
-            <div class="service__icon">🎄</div>
-            <h3>Holiday Light Installation</h3>
-            <p>Custom-fit professional lighting, installed, maintained, taken down, and stored. You just enjoy the glow.</p>
-            <a href="#contact" class="service__link">Light up my home →</a>
-          </article>
-          <article class="service">
-            <div class="service__icon">🔧</div>
-            <h3>Handyman &amp; Minor Repairs</h3>
-            <p>Small jobs done right: fascia and soffit repair, exterior touch-ups, and all the to-do list items you keep putting off.</p>
-            <a href="#contact" class="service__link">Ask about a job →</a>
+            <h3>Patio, Pool Deck &amp; Pavers</h3>
+            <p>Bring back the color on pavers, flagstone, and pool decks. Ask about sealing to keep them looking clean longer.</p>
+            <a href="#contact" class="service__link">Brighten my patio →</a>
           </article>
         </div>
       </div>
     </section>
 
+    <!-- ===== Results / Gallery ===== -->
+    <section class="section section--alt" id="results">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Real Results</p>
+          <h2>Before &amp; After</h2>
+          <p class="section__sub">Every photo here is our own work on a real customer's home.</p>
+        </div>
+
+        <div class="results">
+          <figure class="result result--pair">
+            <div class="result__imgs">
+              <div class="result__img"><img src="assets/porch-before.jpg" alt="Porch before: green algae across the concrete" loading="lazy" width="900" height="1200"><span class="tag tag--before">Before</span></div>
+              <div class="result__img"><img src="assets/porch-after.jpg" alt="Porch after: clean grey concrete" loading="lazy" width="900" height="1200"><span class="tag tag--after">After</span></div>
+            </div>
+            <figcaption><strong>Front porch &amp; steps</strong> Green algae and mildew surface-cleaned off the concrete. No etching, no streaks.</figcaption>
+          </figure>
+          <figure class="result result--pair">
+            <div class="result__imgs">
+              <div class="result__img"><img src="assets/deck-1.jpg" alt="Wood deck and railing after washing" loading="lazy" width="900" height="1200"><span class="tag tag--after">Deck</span></div>
+              <div class="result__img"><img src="assets/deck-2.jpg" alt="Wood deck boards after washing, near the back door" loading="lazy" width="900" height="1200"><span class="tag tag--after">Deck</span></div>
+            </div>
+            <figcaption><strong>Back deck &amp; railing</strong> Wood-safe wash to lift grey weathering and mildew from the boards, bench, and rails.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
     <!-- ===== Why Us ===== -->
-    <section class="section section--alt" id="why">
+    <section class="section" id="why">
       <div class="container why">
         <div class="why__text">
           <p class="eyebrow">Why Homeowners Choose Us</p>
-          <h2>Local, Honest, and Built on Referrals</h2>
-          <p>Stan's Home Services started with one pressure washer and a pickup truck. Today we run multiple crews, but the promise hasn't changed: treat every home like it's our own, communicate clearly, and never upsell work you don't need.</p>
+          <h2>Done Right, or We Come Back</h2>
+          <p>Anyone can rent a pressure washer. Knowing what pressure and what solution each surface can take is what keeps your siding, wood, and plants safe. That's the difference between a clean house and a damaged one.</p>
           <ul class="checklist">
             <li><strong>Upfront pricing.</strong> The price we quote is the price you pay.</li>
-            <li><strong>On-time, every time.</strong> We text you when we're on the way.</li>
-            <li><strong>Fully insured crews.</strong> Your property is protected while we work.</li>
+            <li><strong>On time, every time.</strong> We text you when we're on the way.</li>
+            <li><strong>Fully insured.</strong> Your property is protected while we work.</li>
+            <li><strong>Plant-safe process.</strong> We pre-wet and rinse your landscaping.</li>
             <li><strong>Satisfaction guaranteed.</strong> Not happy? We'll make it right.</li>
           </ul>
           <a href="#contact" class="btn btn--primary">Get Your Free Estimate</a>
@@ -206,49 +204,30 @@
             <span class="step__num">1</span>
             <div>
               <h3>Request a Quote</h3>
-              <p>Call, text, or fill out the form. We'll ask a few quick questions.</p>
+              <p>Call, text, or fill out the form. Send a photo if you have one.</p>
             </div>
           </div>
           <div class="step">
             <span class="step__num">2</span>
             <div>
               <h3>Get a Clear Price</h3>
-              <p>Most estimates are delivered within 24 hours, many the same day.</p>
+              <p>Most estimates are delivered the same day.</p>
             </div>
           </div>
           <div class="step">
             <span class="step__num">3</span>
             <div>
-              <h3>We Do the Work</h3>
-              <p>Our crew shows up on schedule and completes the job to spec.</p>
+              <h3>We Get Wet</h3>
+              <p>We show up on schedule, protect your plants, and clean every surface on the list.</p>
             </div>
           </div>
           <div class="step">
             <span class="step__num">4</span>
             <div>
-              <h3>Enjoy Your Home</h3>
-              <p>Walk through the finished job with us. Pay only when you're satisfied.</p>
+              <h3>Walk-Through</h3>
+              <p>We check the work with you before we leave. Pay only when you're happy.</p>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== Gallery ===== -->
-    <section class="section" id="gallery">
-      <div class="container">
-        <div class="section__head">
-          <p class="eyebrow">Before &amp; After</p>
-          <h2>See the Difference</h2>
-          <p class="section__sub">Real results from real homes. Replace these placeholders with your own project photos.</p>
-        </div>
-        <div class="gallery">
-          <figure class="gallery__item" data-tone="1"><figcaption>Driveway pressure wash</figcaption></figure>
-          <figure class="gallery__item" data-tone="2"><figcaption>Soft-washed siding</figcaption></figure>
-          <figure class="gallery__item" data-tone="3"><figcaption>New architectural shingle roof</figcaption></figure>
-          <figure class="gallery__item" data-tone="4"><figcaption>Sealed paver patio</figcaption></figure>
-          <figure class="gallery__item" data-tone="5"><figcaption>Holiday lighting install</figcaption></figure>
-          <figure class="gallery__item" data-tone="6"><figcaption>Roof &amp; gutter cleaning</figcaption></figure>
         </div>
       </div>
     </section>
@@ -264,17 +243,17 @@
         <div class="reviews">
           <blockquote class="review">
             <div class="review__stars">★★★★★</div>
-            <p>"Stan's crew showed up exactly when they said they would and my driveway looks brand new. Fair price, great communication. Already booked them for the gutters."</p>
+            <p>"Our front porch was completely green and I thought it needed to be repainted. One visit and the concrete looks brand new. Fair price and very professional."</p>
             <footer>— Jennifer R., Homeowner</footer>
           </blockquote>
           <blockquote class="review">
             <div class="review__stars">★★★★★</div>
-            <p>"We had storm damage and Stan walked us through the whole insurance process. New roof was done in a day and the cleanup was spotless."</p>
+            <p>"They washed the whole house and the deck in an afternoon. Careful around the flower beds and cleaned up everything after. Already booked them for next spring."</p>
             <footer>— Marcus T., Homeowner</footer>
           </blockquote>
           <blockquote class="review">
             <div class="review__stars">★★★★★</div>
-            <p>"The holiday lights were stunning and they handled everything, including takedown in January. Neighbors keep asking who did them."</p>
+            <p>"Quick response, showed up exactly when they said, and the driveway looks amazing. Neighbors have already asked for the number."</p>
             <footer>— Priya &amp; Dan K., Homeowners</footer>
           </blockquote>
         </div>
@@ -310,12 +289,12 @@
           <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <radialGradient id="g" cx="50%" cy="50%" r="50%">
-                <stop offset="0%" stop-color="#f97316" stop-opacity=".35"/>
-                <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+                <stop offset="0%" stop-color="#1d8fe1" stop-opacity=".35"/>
+                <stop offset="100%" stop-color="#1d8fe1" stop-opacity="0"/>
               </radialGradient>
             </defs>
-            <rect width="400" height="300" rx="16" fill="#e8eef6"/>
-            <g stroke="#c9d4e3" stroke-width="2" fill="none">
+            <rect width="400" height="300" rx="16" fill="#e8f0f8"/>
+            <g stroke="#c5d6e8" stroke-width="2" fill="none">
               <path d="M0 80 Q100 60 200 90 T400 70"/>
               <path d="M0 160 Q120 140 220 170 T400 150"/>
               <path d="M0 240 Q90 220 200 250 T400 230"/>
@@ -324,9 +303,9 @@
               <path d="M330 0 Q350 120 310 220 T340 300"/>
             </g>
             <circle cx="200" cy="150" r="120" fill="url(#g)"/>
-            <circle cx="200" cy="150" r="10" fill="#f97316"/>
-            <circle cx="200" cy="150" r="18" fill="none" stroke="#f97316" stroke-width="3" opacity=".5"/>
-            <text x="200" y="185" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="14" fill="#0f2747">Stan's Home Services</text>
+            <circle cx="200" cy="150" r="10" fill="#1d8fe1"/>
+            <circle cx="200" cy="150" r="18" fill="none" stroke="#1d8fe1" stroke-width="3" opacity=".5"/>
+            <text x="200" y="185" text-anchor="middle" font-family="Nunito, Inter, sans-serif" font-weight="800" font-size="14" fill="#0c2a5c">Let's Get Wet</text>
           </svg>
         </div>
       </div>
@@ -336,12 +315,13 @@
     <section class="section section--alt" id="contact">
       <div class="container contact">
         <div class="contact__info">
+          <img src="assets/logo.png" alt="Let's Get Wet Pressure Washing logo" class="contact__logo" width="260" height="257">
           <p class="eyebrow">Get in Touch</p>
-          <h2>Ready for a Free Estimate?</h2>
+          <h2>Ready to Get Wet?</h2>
           <p>Call or text us anytime, or send the form and we'll reach out within one business day.</p>
           <ul class="contact__list">
             <li><span>📞</span><a href="tel:+15555550199">(555) 555-0199</a></li>
-            <li><span>✉️</span><a href="mailto:hello@stanshomeservices.com">hello@stanshomeservices.com</a></li>
+            <li><span>✉️</span><a href="mailto:hello@letsgetwetpw.com">hello@letsgetwetpw.com</a></li>
             <li><span>📍</span>Your City, ST</li>
             <li><span>🕒</span>Mon–Sat: 7am – 7pm</li>
           </ul>
@@ -353,31 +333,31 @@
           </div>
         </div>
         <form class="quote-form contact__form" data-quote-form>
+          <h3 class="contact__form-title">Request a Free Quote</h3>
           <div class="form-row">
-            <label><span>Full name</span><input type="text" name="name" required autocomplete="name"></label>
-            <label><span>Phone</span><input type="tel" name="phone" required autocomplete="tel"></label>
+            <label><span>Full name</span><input type="text" id="q-name" name="name" required autocomplete="name"></label>
+            <label><span>Phone</span><input type="tel" id="q-phone" name="phone" required autocomplete="tel"></label>
           </div>
           <div class="form-row">
-            <label><span>Email</span><input type="email" name="email" autocomplete="email"></label>
-            <label><span>Address / City</span><input type="text" name="address" autocomplete="street-address"></label>
+            <label><span>Email</span><input type="email" id="q-email" name="email" autocomplete="email"></label>
+            <label><span>Address / City</span><input type="text" id="q-address" name="address" autocomplete="street-address"></label>
           </div>
           <label>
-            <span>Service needed</span>
-            <select name="service" required>
+            <span>What needs cleaning?</span>
+            <select name="service" id="q-service" required>
               <option value="" disabled selected>Select a service</option>
-              <option>Roof Replacement / Repair</option>
-              <option>Pressure Washing</option>
-              <option>Soft Washing / House Wash</option>
+              <option>House Washing</option>
+              <option>Driveway / Concrete</option>
+              <option>Deck / Fence</option>
+              <option>Roof Soft Washing</option>
               <option>Gutter Cleaning</option>
-              <option>Roof &amp; Solar Panel Cleaning</option>
-              <option>Paver Sealing</option>
-              <option>Holiday Light Installation</option>
-              <option>Handyman / Other</option>
+              <option>Patio / Pool Deck / Pavers</option>
+              <option>Multiple / Not Sure</option>
             </select>
           </label>
           <label>
             <span>Tell us about the job</span>
-            <textarea name="message" rows="4" placeholder="Roughly how big is the area? Any problem spots?"></textarea>
+            <textarea name="message" id="q-message" rows="4" placeholder="Roughly how big is the area? Any problem spots?"></textarea>
           </label>
           <button type="submit" class="btn btn--primary btn--lg btn--block">Request My Free Quote</button>
           <p class="form-note">By submitting, you agree to be contacted about your request.</p>
@@ -392,27 +372,25 @@
     <div class="container footer__inner">
       <div class="footer__brand">
         <a href="#top" class="logo logo--light">
-          <svg class="logo__mark" viewBox="0 0 48 48" aria-hidden="true">
-            <path d="M24 6 4 24h6v16h12V28h4v12h12V24h6z" fill="currentColor"/>
-          </svg>
-          <span class="logo__text">Stan's <span>Home Services</span></span>
+          <img src="assets/logo-sm.png" alt="" class="logo__img" width="64" height="63">
+          <span class="logo__text">Let's Get Wet <span>Pressure Washing</span></span>
         </a>
-        <p>Trust the Best. Trust Stan's.</p>
-        <p class="footer__small">Licensed &amp; Insured • Family Owned</p>
+        <p>Your home deserves a fresh start.</p>
+        <p class="footer__small">Licensed &amp; Insured • Locally Owned</p>
       </div>
       <div class="footer__col">
         <h4>Services</h4>
-        <a href="#services">Roof Replacement &amp; Repair</a>
-        <a href="#services">Pressure Washing</a>
-        <a href="#services">Soft Washing</a>
+        <a href="#services">House Washing</a>
+        <a href="#services">Driveway &amp; Concrete</a>
+        <a href="#services">Deck &amp; Fence</a>
+        <a href="#services">Roof Soft Washing</a>
         <a href="#services">Gutter Cleaning</a>
-        <a href="#services">Paver Sealing</a>
-        <a href="#services">Holiday Lights</a>
+        <a href="#services">Patio &amp; Pavers</a>
       </div>
       <div class="footer__col">
         <h4>Company</h4>
+        <a href="#results">Before &amp; After</a>
         <a href="#why">Why Us</a>
-        <a href="#gallery">Our Work</a>
         <a href="#reviews">Reviews</a>
         <a href="#area">Service Area</a>
         <a href="#contact">Contact</a>
@@ -420,13 +398,13 @@
       <div class="footer__col">
         <h4>Contact</h4>
         <a href="tel:+15555550199">(555) 555-0199</a>
-        <a href="mailto:hello@stanshomeservices.com">hello@stanshomeservices.com</a>
+        <a href="mailto:hello@letsgetwetpw.com">hello@letsgetwetpw.com</a>
         <span>Your City, ST</span>
         <span>Mon–Sat: 7am – 7pm</span>
       </div>
     </div>
     <div class="container footer__bottom">
-      <span>© <span id="year"></span> Stan's Home Services. All rights reserved.</span>
+      <span>© <span id="year"></span> Let's Get Wet Pressure Washing. All rights reserved.</span>
       <span><a href="#">Privacy Policy</a> • <a href="#">Terms</a></span>
     </div>
   </footer>

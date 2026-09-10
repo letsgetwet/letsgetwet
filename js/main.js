@@ -1,4 +1,4 @@
-/* Stan's Home Services — site scripts */
+/* Let's Get Wet Pressure Washing — site scripts */
 (function () {
   'use strict';
 
@@ -8,7 +8,7 @@
   // Option B: leave blank and the form falls back to opening the visitor's
   //   email client with the details pre-filled (mailto).
   var FORM_ENDPOINT = '';
-  var FALLBACK_EMAIL = 'hello@stanshomeservices.com';
+  var FALLBACK_EMAIL = 'hello@letsgetwetpw.com';
 
   // ---- Mobile nav ----------------------------------------------------------
   var toggle = document.getElementById('navToggle');
@@ -29,12 +29,21 @@
     });
   }
 
+  // ---- Before/after compare slider ----------------------------------------
+  document.querySelectorAll('.compare').forEach(function (box) {
+    var range = box.querySelector('.compare__range');
+    if (!range) return;
+    var update = function () { box.style.setProperty('--pos', range.value + '%'); };
+    range.addEventListener('input', update);
+    update();
+  });
+
   // ---- Footer year ---------------------------------------------------------
   var year = document.getElementById('year');
   if (year) year.textContent = new Date().getFullYear();
 
   // ---- Scroll reveal -------------------------------------------------------
-  var revealTargets = document.querySelectorAll('.service, .step, .gallery__item, .review, .section__head');
+  var revealTargets = document.querySelectorAll('.service, .step, .result, .review, .section__head');
   revealTargets.forEach(function (el) { el.classList.add('reveal'); });
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function (entries) {

@@ -1,7 +1,7 @@
-# Stan's Home Services — Website
+# Let's Get Wet Pressure Washing — Website
 
-A fast, mobile-friendly, single-page marketing site for a home services business
-(roofing, pressure washing, soft washing, gutter cleaning, paver sealing, holiday lights).
+A fast, mobile-friendly, single-page marketing site for a pressure washing business
+(house washing, driveways, decks, roof soft washing, gutters, patios).
 No build step, no frameworks: plain HTML, CSS, and JavaScript.
 
 ## Run it locally
@@ -17,12 +17,13 @@ python3 -m http.server 8000
 
 | What | Where |
 |------|-------|
-| Business name, tagline, phone, email, address, hours | `index.html` (search for `Stan's`, `555-0199`, `Your City`) |
+| Phone, email, address, hours | `index.html` (search for `555-0199`, `letsgetwetpw`, `Your City`) |
 | Services offered | `index.html` → `#services` section and the two `<select>` dropdowns |
 | Reviews | `index.html` → `#reviews` section |
 | Service area towns | `index.html` → `#area` section |
 | Colors and fonts | `css/styles.css` → the `:root` variables at the top |
-| Before/after photos | Replace the `.gallery__item` placeholders with `<img>` tags |
+| Before/after photos | Drop JPGs in `assets/` and add a `.result` block in the `#results` section |
+| Logo | `assets/logo.png` (full) and `assets/logo-sm.png` (header) |
 | Quote form delivery | `js/main.js` → set `FORM_ENDPOINT` (Formspree) or `FALLBACK_EMAIL` |
 
 ## Deploy
