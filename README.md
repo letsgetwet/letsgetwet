@@ -1,7 +1,7 @@
 # Let's Get Wet Pressure Washing — Website
 
 A fast, mobile-friendly, single-page marketing site for a pressure washing business
-(house washing, driveways, decks, roof soft washing, gutters, patios).
+(house washing, driveways, sidewalks, decks, fences, patios, gutter brightening).
 No build step, no frameworks: plain HTML, CSS, and JavaScript.
 
 ## Run it locally
