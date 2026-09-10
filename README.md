@@ -17,7 +17,7 @@ python3 -m http.server 8000
 
 | What | Where |
 |------|-------|
-| Phone, email, address, hours | `index.html` (search for `555-0199`, `letsgetwetpw`, `Your City`) |
+| Phone, email, address, hours | `index.html` (search for `710-4081`, `letsgetwetpw`, `Cumming`) |
 | Services offered | `index.html` → `#services` section and the two `<select>` dropdowns |
 | Reviews | `index.html` → `#reviews` section |
 | Service area towns | `index.html` → `#area` section |
