@@ -7,7 +7,7 @@
   //   paste its endpoint here, e.g. 'https://formspree.io/f/abcdwxyz'.
   // Option B: leave blank and the form falls back to opening the visitor's
   //   email client with the details pre-filled (mailto).
-  var FORM_ENDPOINT = '';
+  var FORM_ENDPOINT = 'https://formspree.io/f/xyewkdwn';
   var FALLBACK_EMAIL = 'xanderd.case@gmail.com';
 
   // ---- Mobile nav ----------------------------------------------------------
