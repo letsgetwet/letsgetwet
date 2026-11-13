@@ -413,5 +413,18 @@ whop.track("page");
   </div>
 
   <script src="js/main.js"></script>
+<script>
+  document.querySelectorAll('form').forEach(function (f) {
+    f.addEventListener('submit', function () {
+      if (window.whop) whop.track('lead');
+    });
+  });
+  document.querySelectorAll('a[href^="tel:"], a[href^="sms:"]').forEach(function (a) {
+    a.addEventListener('click', function () {
+      if (window.whop) whop.track('contact');
+    });
+  });
+</script>
+
 </body>
 </html>
